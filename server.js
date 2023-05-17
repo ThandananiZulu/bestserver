@@ -17,11 +17,11 @@ io.on("connection", (socket) => {
   });
 });
 var db = mysql.createConnection({
-  host: "localhost",
+  host: "127.0.0.1",
   user: "u723454498_best",
   password: "@1MAGEBAtech",
   database: "u723454498_bestbright",
- port: 3306
+ 
 });
 
 db.connect((err) => {
