@@ -17,7 +17,7 @@ io.on("connection", (socket) => {
   });
 });
 var db = mysql.createConnection({
-  host: "127.0.0.1",
+  host: "0.0.0.0",
   user: "u723454498_best",
   password: "@1MAGEBAtech",
   database: "u723454498_bestbright",
