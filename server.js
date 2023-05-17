@@ -21,7 +21,7 @@ var db = mysql.createConnection({
   user: "u723454498_best",
   password: "@1MAGEBAtech",
   database: "u723454498_bestbright",
- socketPath: '/path/to/your/mysql.sock'
+ port: 3306
 });
 
 db.connect((err) => {
